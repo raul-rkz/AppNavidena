@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorblanc"
+    tools:context="com.androidbolivia.appnavidena.Main3Activity"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lista de Villancicos"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/color1"
+                android:layout_centerHorizontal="true"
+                android:padding="30dp"
+
+                />
+            <ToggleButton
+                android:id="@+id/btnVillanUno"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/boton2"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:layout_marginTop="120dp"
+                android:textOn="Sonando"
+                android:textOff="Dime niño"
+                />
+            <ToggleButton
+                android:id="@+id/btnVillanDos"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/boton2"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:layout_marginTop="200dp"
+                android:text="La Virgen fue lavandera"
+                android:textOn="Sonando"
+                android:textOff="La Virgen fue lavandera"
+                />
+            <ToggleButton
+                android:id="@+id/btnVillanTres"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/boton2"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:layout_marginTop="280dp"
+                android:text="ya viene la vieja"
+                android:textOn="Sonando"
+                android:textOff="ya viene la vieja"
+                />
+            <ToggleButton
+                android:id="@+id/btnVillanCuatro"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/boton2"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:layout_marginTop="360dp"
+                android:text="Los peces en el río"
+                android:textOn="Sonando"
+                android:textOff="Los peces en el río"
+                />
+            <ToggleButton
+                android:id="@+id/btnVillanCinco"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/boton2"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:layout_marginTop="440dp"
+                android:text="Arre borriquito"
+                android:textOn="Sonando"
+                android:textOff="Arre borriquito"
+                />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
